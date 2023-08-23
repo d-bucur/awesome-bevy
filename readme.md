@@ -7,6 +7,7 @@ A personal list of projects and resources that enhance the Bevy experience. Thes
 - [General learning](#general-learning)
 - [Tutorials](#tutorials)
 - [Libraries](#libraries)
+  - [Input](#input)
   - [Physics](#physics)
   - [Networking](#networking)
   - [AI](#ai)
@@ -20,22 +21,26 @@ A personal list of projects and resources that enhance the Bevy experience. Thes
 - [TODO add](#todo-add)
 
 # General learning
-- [Official examples](https://github.com/bevyengine/bevy/tree/main/examples): Has a lot of great examples on how to use most of the features of the engine. Are always kept up to date with the latest API
-- [Rust API Docs](https://docs.rs/bevy/latest/bevy/): Has great descriptions simple examples
-- [Unofficial Bevy Cheat Book](https://bevy-cheatbook.github.io/): A great resource that explains in detail all the concepts of the engine similar to 
-- The [blog posts](https://bevyengine.org/news/bevy-0-11) for each new version often contain code showing how to use the new APIs
-- [Community](https://bevyengine.org/community/): a list of all the official communities, with the most active being Discord and the Github Discussions
+- [Official examples](https://github.com/bevyengine/bevy/tree/main/examples): Has a lot of examples on how to use most of the features of the engine. Are always kept up to date with the latest API
+- [Rust API Docs](https://docs.rs/bevy/latest/bevy/): Great descriptions and some simple examples
+- [Unofficial Bevy Cheat Book](https://bevy-cheatbook.github.io/): A full book that explains in detail all the concepts of the engine similar to the Rust book
+- [Blog posts](https://bevyengine.org/news/bevy-0-11) for each new version often contain code showing how to use the new APIs
+- [Community](https://bevyengine.org/community/): a list of all the official communities, with the most active being Discord and Github Discussions
 - [Bevy Assets](https://github.com/bevyengine/bevy-assets): The original awesome list. Always check the version as some of them are quite old and the API has changed a lot since then
-- See the [Games](#games) section for more source code
+- See [Games](#games) section for more source code
 
 # Tutorials
 - [Snake](https://web.archive.org/web/20230301215439/mbuffett.com/posts/bevy-snake-tutorial/): Uses an old version and the original site is unavailable, but still a great starter tutorial
-- [Minesweeper](https://dev.to/qongzi/bevy-minesweeper-introduction-4l7f): Uses a fairly old version, but if you're struggling with how to structure a classic game using ECS it might still be worth a read
+- [Minesweeper](https://dev.to/qongzi/bevy-minesweeper-introduction-4l7f): Uses an old version, but if you're struggling with how to structure a classic game using ECS it is still worth a read
 - [Dependency injection engine](https://promethia-27.github.io/dependency_injection_like_bevy_from_scratch/introductions.html): Covers how to build a simple engine from scratch. Inspired by Bevy
 
 # Libraries
+## Input
+- https://github.com/JoJoJet/bevy-mouse-tracking TODO
+- https://github.com/johanhelsing/bevy_pancam TODO
+
 ## Physics
-- [bevy_rapier](https://github.com/dimforge/bevy_rapier): An integration with the popular 2D/3D [Rapier](https://rapier.rs/) physics engine
+- [bevy_rapier](https://github.com/dimforge/bevy_rapier): An integration with the popular 2D/3D [Rapier](https://rapier.rs/) Rust physics engine
 - [Bevy raycast](https://github.com/aevyrie/bevy_mod_raycast): Simple raycast system
 
 ## Networking
@@ -50,11 +55,11 @@ A personal list of projects and resources that enhance the Bevy experience. Thes
 # Development
 - [GitHub CI Template](https://github.com/bevyengine/bevy_github_ci_template): Get started with GitHub actions for CI/CD. Includes publishing to itch.io
 - [VSCode snippets for Bevy](https://github.com/pixldev/bevy-snippets): Save time on typing repetitive code
-- [VSCode snippets](https://github.com/d-bucur/dotfiles/blob/main/.config/Code/User/snippets/rust.json): My personal VSCode snippets for Bevy and Rust in general
+- [My VSCode snippets](https://github.com/d-bucur/dotfiles/blob/main/.config/Code/User/snippets/rust.json): My personal VSCode snippets for Bevy and Rust in general
 
 # Games
 ## Bevy Game jams
-Most of the games developed for the jam are open source and are a great way to see some real world usage of the engine. Keep in mind that they are a bit harder to read than specific examples since they have the context of a more complex project. And they might not always be the best practices for writing code as game jams are relatively short and people often have to do nasty workarounds to meet the deadline.
+Most of the games developed for the jam are open source and are a great way to see some real world usage of the engine. Keep in mind that they are a bit harder to read than specific examples since they have the context of a more complex project. And they might not always be the best practices for writing code as game jams are relatively short and people often do nasty workarounds to meet the deadline.
 
 - https://itch.io/jam/bevy-jam-1
 - https://itch.io/jam/bevy-jam-2
@@ -76,7 +81,7 @@ Most of the games developed for the jam are open source and are a great way to s
 
 # Useful Rust tools
 - [arewegameyet](https://arewegameyet.rs/): A more general collection of Rust tools for gamedev. Not specific to Bevy
-- [rand](https://github.com/rust-random/rand): You're probably going to be using randomness a lot so might as well import the create
+- [rand](https://github.com/rust-random/rand): You're probably going to be using randomness a lot so might as well import the crate
 - [Serde](https://github.com/serde-rs/serde): Serialization framework. When you need to save data to disk or send it on the network.
 - [Rayon](https://github.com/rayon-rs/rayon): A parallelism library. When Bevy's parallelization is not enough for you, just install this library and you're one `par_iter()` away from (mostly) data race free threading. Get those slacking cores to work!
 - [Criterion](https://github.com/bheisler/criterion.rs): Benchmarking library
