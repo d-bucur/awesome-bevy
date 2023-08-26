@@ -43,9 +43,11 @@ A personal list of projects and resources that enhance the Bevy experience. Thes
 ## Physics
 - [bevy_rapier](https://github.com/dimforge/bevy_rapier): An integration with the popular 2D/3D [Rapier](https://rapier.rs/) Rust physics engine
 - [Bevy raycast](https://github.com/aevyrie/bevy_mod_raycast): Simple raycast system
+- [Bevy XPBD](https://github.com/Jondolf/bevy_xpbd): 2D and 3D physics engine based on Extended Position Based Dynamics
 
 ## Networking
 - [Matchbox+GGRS](https://johanhelsing.studio/posts/extreme-bevy): A tutorial that uses [GGRS](https://github.com/gschup/ggrs) and [Matchbox](https://github.com/johanhelsing/matchbox) to create an online p2p multiplayer using rollback netcode in Bevy. Both libraries also have examples on how to integrate them with Bevy
+- [Renet](https://github.com/lucaspoffo/renet): Server/Client network library for multiplayer games
 
 ## AI
 - [Bonsai](https://github.com/Sollimann/bonsai): Behaviour trees for your AI
