@@ -36,6 +36,7 @@ A personal list of projects and resources that enhance the Bevy experience. Thes
 
 # Libraries
 ## Input
+- [Leafwing input manager](https://github.com/Leafwing-Studios/leafwing-input-manager): An input manager for keyboard, mouse and gamepad
 - https://github.com/JoJoJet/bevy-mouse-tracking TODO
 - https://github.com/johanhelsing/bevy_pancam TODO
 
@@ -74,6 +75,7 @@ Most of the games developed for the jam are open source and are a great way to s
 - [Fish Folk Punchy](https://github.com/fishfolk/punchy): A 2.5D side-scroller beatemup
 - [Digital Extinction](https://github.com/DigitalExtinction/Game): A 3D RTS game
 - [Doomé](https://github.com/Patryk27/doome): A Doom clone made for the Game Off 2022 jam. A lot of custom components, but uses some bevy ECS features
+- [Emergence](https://github.com/Leafwing-Studios/Emergence): An organic factory builder in early stage
 
 ## Upcoming
 - [Tiny Glade](https://store.steampowered.com/app/2198150/Tiny_Glade/): A small relaxing game about doodling castles. Uses a custom renderer with Bevy ECS
