@@ -26,15 +26,19 @@ A personal list of projects and resources that enhance the Bevy experience. Thes
 - [Unofficial Bevy Cheat Book](https://bevy-cheatbook.github.io/): A full book that explains in detail all the concepts of the engine similar to the Rust book
 - [Blog posts](https://bevyengine.org/news/bevy-0-11) for each new version often contain code showing how to use the new APIs
 - [Community](https://bevyengine.org/community/): a list of all the official communities, with the most active being Discord and Github Discussions
-- [Bevy Assets](https://github.com/bevyengine/bevy-assets): The original awesome list. Always check the version as some of them are quite old and the API has changed a lot since then
+- [Bevy Assets](https://bevyengine.org/assets/): The original awesome list. Always check the version as some of them are quite old and the API has changed a lot since then
 - See [Games](#games) section for more source code
 
 # Tutorials
 - [Snake](https://web.archive.org/web/20230301215439/mbuffett.com/posts/bevy-snake-tutorial/): Uses an old version and the original site is unavailable, but still a great starter tutorial
 - [Minesweeper](https://dev.to/qongzi/bevy-minesweeper-introduction-4l7f): Uses an old version, but if you're struggling with how to structure a classic game using ECS it is still worth a read
+- [Best practices](https://github.com/tbillington/bevy_best_practices): Opinionated list of best practices
 - [Dependency injection engine](https://promethia-27.github.io/dependency_injection_like_bevy_from_scratch/introductions.html): Covers how to build a simple engine from scratch. Inspired by Bevy
 
 # Libraries
+## Graphics
+- [Vello](https://github.com/vectorgameexperts/bevy-vello): vectorial rendering that supports SVG and lottie
+
 ## Input
 - [Leafwing input manager](https://github.com/Leafwing-Studios/leafwing-input-manager): An input manager for keyboard, mouse and gamepad
 - https://github.com/JoJoJet/bevy-mouse-tracking TODO
@@ -49,10 +53,14 @@ A personal list of projects and resources that enhance the Bevy experience. Thes
 - [Matchbox+GGRS](https://johanhelsing.studio/posts/extreme-bevy): A tutorial that uses [GGRS](https://github.com/gschup/ggrs) and [Matchbox](https://github.com/johanhelsing/matchbox) to create an online p2p multiplayer using rollback netcode in Bevy. Both libraries also have examples on how to integrate them with Bevy
 - [Renet](https://github.com/lucaspoffo/renet): Server/Client network library for multiplayer games
 
+## UI
+- [Lunex](https://github.com/bytestring-net/bevy-lunex): Path based layout system with an impressive demo
+
 ## AI
 - [Bonsai](https://github.com/Sollimann/bonsai): Behaviour trees for your AI
 
 # Other
+- [bevy_proto](https://github.com/MrGVSV/bevy_proto): Load entity definitions from files. Supports inheritance and hierarchies, similar to Unity prefabs
 - [Particular](https://github.com/Canleskis/particular): Nbody simulation library with great performance
 
 # Development
@@ -82,6 +90,9 @@ Most of the games developed for the jam are open source and are a great way to s
 ## Upcoming
 - [Tiny Glade](https://store.steampowered.com/app/2198150/Tiny_Glade/): A small relaxing game about doodling castles. Uses a custom renderer with Bevy ECS
 
+## Other
+- [Awesome Prod](https://github.com/Vrixyz/bevy_awesome_prod): A more complete list of projects
+
 
 # Useful Rust tools
 - [arewegameyet](https://arewegameyet.rs/): A more general collection of Rust tools for gamedev. Not specific to Bevy
@@ -104,7 +115,6 @@ Most of the games developed for the jam are open source and are a great way to s
 - https://github.com/ElliotB256/bevy_combat
 - https://github.com/djeedai/bevy_tweening
 - https://github.com/vleue/bevy_easings
-- https://github.com/bytestring-net/bevy-lunex
 - https://github.com/james-j-obrien/bevy_vector_shapes
 - https://github.com/Nilirad/bevy_prototype_lyon
 
