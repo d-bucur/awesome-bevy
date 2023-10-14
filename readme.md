@@ -18,7 +18,7 @@ A personal list of projects and resources that enhance the Bevy experience. Thes
   - [Prototypes](#prototypes)
   - [Upcoming](#upcoming)
 - [Useful Rust tools](#useful-rust-tools)
-- [TODO add](#todo-add)
+- [Uncategorized](#uncategorized)
 
 # General learning
 - [Official examples](https://github.com/bevyengine/bevy/tree/main/examples): Has a lot of examples on how to use most of the features of the engine. Are always kept up to date with the latest API
@@ -36,6 +36,11 @@ A personal list of projects and resources that enhance the Bevy experience. Thes
 - [Dependency injection engine](https://promethia-27.github.io/dependency_injection_like_bevy_from_scratch/introductions.html): Covers how to build a simple engine from scratch. Inspired by Bevy
 
 # Libraries
+## Dev tools
+- [bevy_editor_pls](https://github.com/jakobhellermann/bevy_editor_pls): GUI editor
+- [bevy-inspector-egui](https://github.com/jakobhellermann/bevy-inspector-egui): Inspect components and entities with a runtime GUI
+- [bevy_mod_debugdump](https://github.com/jakobhellermann/bevy_mod_debugdump): A system execution graph
+
 ## Graphics
 - [Vello](https://github.com/vectorgameexperts/bevy-vello): vectorial rendering that supports SVG and lottie
 
@@ -85,14 +90,16 @@ Most of the games developed for the jam are open source and are a great way to s
 - [Fish Folk Punchy](https://github.com/fishfolk/punchy): A 2.5D side-scroller beatemup
 - [Digital Extinction](https://github.com/DigitalExtinction/Game): A 3D RTS game
 - [Doomé](https://github.com/Patryk27/doome): A Doom clone made for the Game Off 2022 jam. A lot of custom components, but uses some bevy ECS features
-- [Emergence](https://github.com/Leafwing-Studios/Emergence): An organic factory builder in early stage
 
 ## Upcoming
 - [Tiny Glade](https://store.steampowered.com/app/2198150/Tiny_Glade/): A small relaxing game about doodling castles. Uses a custom renderer with Bevy ECS
+- [Tunnet](https://puzzled-squid.itch.io/tunnet): Build an underground computer network
+- [Unnamed strategy game](https://mastodon.online/@elmowilk): Set in the industrial revolution
+- [One Planet](https://buttondown.email/oneplanet/archive/one-planet-a-climate-strategy-game/): Grand strategy game about climate crisis
+- [Emergence](https://github.com/Leafwing-Studios/Emergence): An organic factory builder in early stage
 
 ## Other
 - [Awesome Prod](https://github.com/Vrixyz/bevy_awesome_prod): A more complete list of projects
-
 
 # Useful Rust tools
 - [arewegameyet](https://arewegameyet.rs/): A more general collection of Rust tools for gamedev. Not specific to Bevy
@@ -103,10 +110,7 @@ Most of the games developed for the jam are open source and are a great way to s
 - [flamegraph](https://github.com/flamegraph-rs/flamegraph): generates easy to read reports to troubleshoot performance issues (haven't tried with Bevy yet)
 - [colorgrad](https://github.com/mazznoer/colorgrad-rs): Generates color gradients for beautiful interpolation
 
-# TODO add
-- bevy-inspector-egui
-- bevy_editor_pls
-- bevy_mod_debugdump
+# Uncategorized
 - https://github.com/zkat/big-brain
 - https://github.com/sharkdp/hyperfine ?
 - https://github.com/sagiegurari/cargo-make
