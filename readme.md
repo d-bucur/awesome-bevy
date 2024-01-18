@@ -80,6 +80,7 @@ Most of the games developed for the jam are open source and are a great way to s
 - https://itch.io/jam/bevy-jam-1
 - https://itch.io/jam/bevy-jam-2
 - https://itch.io/jam/bevy-jam-3
+- https://itch.io/jam/bevy-jam-4
 
 ## Prototypes
 - [Build A Better Buddy](https://github.com/cart/build_a_better_buddy): a cute auto-battler
