@@ -92,10 +92,13 @@ Most of the games developed for the jam are open source and are a great way to s
 - [Digital Extinction](https://github.com/DigitalExtinction/Game): A 3D RTS game
 - [Doomé](https://github.com/Patryk27/doome): A Doom clone made for the Game Off 2022 jam. A lot of custom components, but uses some bevy ECS features
 
-## Upcoming
+## Released
 - [Tiny Glade](https://store.steampowered.com/app/2198150/Tiny_Glade/): A small relaxing game about doodling castles. Uses a custom renderer with Bevy ECS
 - [Tunnet](https://puzzled-squid.itch.io/tunnet): Build an underground computer network
-- [Unnamed strategy game](https://mastodon.online/@elmowilk): Set in the industrial revolution
+
+## Upcoming
+- [Times of Progress](https://store.steampowered.com/app/2628450/Times_of_Progress/): City builder in the industrial revolution
+- [Settletopia](https://store.steampowered.com/app/3533480/Settletopia/): Colony sim with multiplayer
 - [One Planet](https://buttondown.email/oneplanet/archive/one-planet-a-climate-strategy-game/): Grand strategy game about climate crisis
 - [Emergence](https://github.com/Leafwing-Studios/Emergence): An organic factory builder in early stage
 
