@@ -99,6 +99,7 @@ Most of the games developed for the jam are open source and are a great way to s
 - [Tunnet](https://puzzled-squid.itch.io/tunnet): Build an underground computer network
 
 ## Upcoming
+- [Jarl](https://www.jarl-game.com/): Norse fantasy colony simulator
 - [Times of Progress](https://store.steampowered.com/app/2628450/Times_of_Progress/): City builder in the industrial revolution
 - [Settletopia](https://store.steampowered.com/app/3533480/Settletopia/): Colony sim with multiplayer
 - [Unhaunter](https://github.com/deavid/unhaunter): 2D isometric investigation game
