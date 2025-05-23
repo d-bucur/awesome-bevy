@@ -81,6 +81,8 @@ Most of the games developed for the jam are open source and are a great way to s
 - https://itch.io/jam/bevy-jam-2
 - https://itch.io/jam/bevy-jam-3
 - https://itch.io/jam/bevy-jam-4
+- https://itch.io/jam/bevy-jam-5
+- https://itch.io/jam/bevy-jam-6
 
 ## Prototypes
 - [Build A Better Buddy](https://github.com/cart/build_a_better_buddy): a cute auto-battler
@@ -99,7 +101,10 @@ Most of the games developed for the jam are open source and are a great way to s
 ## Upcoming
 - [Times of Progress](https://store.steampowered.com/app/2628450/Times_of_Progress/): City builder in the industrial revolution
 - [Settletopia](https://store.steampowered.com/app/3533480/Settletopia/): Colony sim with multiplayer
+- [Unhaunter](https://github.com/deavid/unhaunter): 2D isometric investigation game
 - [One Planet](https://buttondown.email/oneplanet/archive/one-planet-a-climate-strategy-game/): Grand strategy game about climate crisis
+
+## Cancelled
 - [Emergence](https://github.com/Leafwing-Studios/Emergence): An organic factory builder in early stage
 
 ## Other
